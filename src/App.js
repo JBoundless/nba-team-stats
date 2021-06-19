@@ -37,7 +37,7 @@ class App extends Component {
                 <br />
                 <img
                   src={obj.teamLogo}
-                  style={{ width: '100vh', height: '100vh' }}
+                  style={{ width: '75%', height: 'auto' }}
                 />
                 <p>
                   Record: {obj.wins} - {obj.losses}
