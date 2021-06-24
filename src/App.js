@@ -56,12 +56,12 @@ class App extends Component {
                 <p>Free Throw Per: {obj.ftPer}</p>
                 <br />
                 <p>
-                  BPG vs Blocks Attempted Per Game: {obj.blocksPG} /{' '}
-                  {obj.blocksAttemptPG}
+                  BPG vs Blocks Attempted Per Game: {obj.blocksPG} /{obj.blocksAttemptPG}
                 </p>
                 <br />
                 <p>SPG: {obj.stealsPG}</p><br />
-                <p>TOVPG: {obj.turnoversPG}</p>
+                <p>TOVPG: {obj.turnoversPG}</p><br />
+                <p>PLUS-MINUS: {obj.plusMinus}</p>
               </div>
             );
           })}
